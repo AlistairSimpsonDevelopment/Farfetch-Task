@@ -1,0 +1,531 @@
+body {
+    font-family:  sans-serif;
+	font-size: 20px;
+    line-height: 150%;
+    color: #333;
+	height: 100%:
+}
+
+a {
+   text-decoration: underline;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+}
+
+
+
+/* ---- SECTION BLOCKS ---- */
+
+.section-hero {
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    text-align: center;
+    display: table;
+}
+
+.section-POS {
+	height: 40px;
+	line-height: 40px;
+	background-color: #dddddd;
+	
+}
+/* ---- END SECTION BLOCKS ---- */
+
+
+
+/* ---- FONTS AND WEIGHTS ---- */
+
+.heading {
+	font-family:  sans-serif;
+	font-size: 40px;
+	line-height: 120%;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.subheading {
+	font-family: sans-serif;
+	font-size: 50px;
+	line-height: 120%;
+	padding-top: 10px;
+}
+
+.title {
+	font-family: sans-serif;
+	font-size: 30px;
+	line-height: 150%;
+	font-weight: 700;
+}
+
+.sub-title {
+	font-family: sans-serif;
+	font-size: 20px;
+	line-height: 150%;
+	font-weight: 700;
+}
+
+.copy {
+	font-family:  sans-serif;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.copy-small {
+	font-family:  sans-serif;
+	font-size: 14px;
+	line-height: 180%;
+}
+.copy-white {
+	color: #fff;
+}
+
+.copy-black {
+	color: #000;
+}
+
+.copy-red {
+	color: red;
+}
+/* ---- END FONTS AND WEIGHTS ---- */
+
+
+/* ---- WIDTHS, PADDING AND ALIGNMENT ---- */
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
+
+.width-100 {
+	width: 100%;
+    margin: auto !important;
+}
+.width-80 {
+    width: 80% !important;
+    margin: auto !important;
+}
+.width-60 {
+    width: 60%;
+    margin: auto !important;
+}
+.width-40 {
+    width: 40%;
+    margin: auto !important;
+}
+
+.padding-5-percent {
+	padding: 5% 5%;
+}
+.padding-10-percent {
+	padding: 10% 10%;
+}
+.padding-20-percent {
+	padding: 20% 20%;
+}
+.padding-right-10 {
+	padding-right: 10px;
+}
+
+.margin-auto {
+	margin: auto;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.valign {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* ---- END WIDTHS, PADDING AND ALIGNMENT ---- */
+
+
+/* ---- BUTTONS ---- */
+
+
+.btn-black {
+	background: #000;
+	border: none;
+	padding: 10px;
+	width: 250px;
+	color: #fff;
+	margin: 15px;
+	font-weight: bold;
+}
+
+.btn {
+	font-family: sans-serif !important;
+}
+
+/* ---- END BUTTONS ---- */
+
+
+.jumbotron {
+	background: none;
+}
+
+
+.desktop-hide {
+    display: none;
+}
+
+ol {
+    list-style: none;
+    -webkit-padding-start: 0;
+}
+
+/* ---- NAVBAR ---- */
+
+.navbar {
+    height: 85px !important;
+    line-height: 85px;
+    margin-bottom: 0 !important;
+    margin: 0;
+    border-radius: 0;
+    background: transparent !important;
+	border: 0px;
+	z-index: 10000;
+}
+
+.navbar div,.navbar ul li a {
+    height: 85px !important;
+    line-height: 80px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+	text-decoration: none;
+}
+
+.navbar-fixed-top {
+    background: transparent !important;
+    border-bottom: 0 solid transparent !important;
+}
+
+.navbar-fixed-top div,.navbar-fixed-top a,.navbar-fixed-top ul li a {
+    height: 85px !important;
+    line-height: 85px;
+    color: #fff !important;
+}
+
+.navbar-default div,.navbar-default a,.navbar-default ul li a {
+    height: 85px !important;
+    line-height: 85px;
+}
+
+.navbar-fixed-top.affix {
+	background:white !important;
+	-webkit-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+	border-bottom: 1px solid #e4e4e4 !important;
+}
+.navbar-fixed-top.affix a, .navbar-fixed-top.affix div, .navbar-fixed-top.affix ul li a {
+	color: #616161 !important;
+}
+
+ .navbar-fixed-top.affix .navbar-toggle .icon-bar {
+background-color: #616161 !important;
+ }
+ 
+.navbar-default div form {
+z-index: 10000;	
+}
+.navbar-nav {
+    margin: 0;
+}
+.navbar-left {
+	float: left;
+	padding-left: 10px
+}
+.navbar-right {
+	float: right;
+	padding-right: 10px;
+}
+.mobile-navbar-right {
+	float: right;
+}
+.nav .fa {
+    font-size: 30px;
+}
+
+.fa-navbar {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.navbar-collapse {
+	width: 50%;
+	float: right;
+}
+
+.nav .logo {
+    padding-right: 20px;
+	
+}
+.navbar-toggle {
+	z-index: 10000;
+	border: none !important;
+	background: none  !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #616161 !important;
+}
+.navbar-fixed-top .navbar-toggle .icon-bar {
+	background-color: white !important;
+}
+
+.navbar-collapse.collapsing, .navbar-collapse.collapse.in {
+		position: absolute !important;
+		top: 60px;
+		bottom: 0px;
+		right: 0px;
+		left: 0px;
+		left: 0px;
+        height: 100vh !important;
+		max-height: 100vh;
+        width: 100% !important;
+		color: #616161;
+        z-index: 10000 !important;
+		padding-right: 0px;
+		padding-left: 0px;
+	background: white;
+}
+.navbar-collapse.collapsing ul li a, .navbar-collapse.collapse.in ul li a {
+	color:#616161 !important;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #fafafa;
+}	
+.navbar-collapse.collapsing ul li a:hover, .navbar-collapse.collapse.in ul li a:hover {
+	background: #fafafa;
+}
+.burger-nav {
+	padding: 22px 15px;
+}
+
+.nav.affix {
+    top: 20px;
+    z-index: -1;
+}
+
+.nav-icons {
+	font-size: 20px !important;
+	padding: 10px;
+	margin: 5px;
+	color: black;
+}
+
+/* ---- END NAVBAR ---- */
+	
+/* ---- MEDIA QUERIES & MOBILE CSS ---- */
+
+
+/* desktops */
+@media only screen and (min-width: 992px) {
+	
+.section-hero {
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+   background: url(Images/Img-xl.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    text-align: center;
+    display: table;
+}
+
+.desktop-hide {
+	display: none;
+}
+
+
+
+}
+
+/* laptops */
+@media only screen and (max-width: 992px) {
+	
+.section-hero {
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+   background: url(Images/Img-lg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    text-align: center;
+    display: table;
+}
+.desktop-hide {
+	display: none;
+}
+/* ---- FONTS AND WEIGHTS ---- */
+
+.heading {
+	font-family:  sans-serif;
+	font-size: 30px;
+	line-height: 120%;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.copy {
+	font-family:  sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.copy-small {
+	font-family:  sans-serif;
+	font-size: 15px;
+	line-height: 180%;
+}
+/* ---- END FONTS AND WEIGHTS ---- */
+}
+/* tablets */
+@media only screen and (max-width: 768px) {
+
+.section-hero {
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+   background: url(Images/Img-md.jpg) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    text-align: center;
+    display: table;
+}
+.tablet-hide {
+	display: none;
+}
+/* ---- FONTS AND WEIGHTS ---- */
+
+.heading {
+	font-family:  sans-serif;
+	font-size: 30px;
+	line-height: 120%;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.copy {
+	font-family:  sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.copy-small {
+	font-family:  sans-serif;
+	font-size: 15px;
+	line-height: 180%;
+}
+/* ---- END FONTS AND WEIGHTS ---- */
+}
+/* mobiles */
+@media only screen and (max-width: 540px) {
+	
+.section-hero {
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+   background: url(Images/Img-xs.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    text-align: center;
+    display: table;
+}
+.mobile-hide {
+	display: none;
+}
+/* ---- FONTS AND WEIGHTS ---- */
+
+.heading {
+	font-family:  sans-serif;
+	font-size: 30px;
+	line-height: 120%;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.copy {
+	font-family:  sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.copy-small {
+	font-family:  sans-serif;
+	font-size: 15px;
+	line-height: 180%;
+}
+/* ---- END FONTS AND WEIGHTS ---- */
+/* ---- FONTS AND WEIGHTS ---- */
+
+.heading {
+	font-family:  sans-serif;
+	font-size: 30px;
+	line-height: 120%;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.copy {
+	font-family:  sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.copy-small {
+	font-family:  sans-serif;
+	font-size: 15px;
+	line-height: 180%;
+}
+/* ---- END FONTS AND WEIGHTS ---- */
+
+}
+
+/* ---- MEDIA QUERIES & MOBILE CSS ---- */

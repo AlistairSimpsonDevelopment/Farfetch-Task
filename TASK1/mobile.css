@@ -1,0 +1,408 @@
+@media (max-width: 60em) {
+
+body {
+    font-family: Montserrat, Open Sans, Sans Serif !important;
+    line-height: 150%;
+    font-size: 15px;
+    color: #616161;
+}
+
+
+a {
+    text-decoration: none;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+}
+
+
+.width-100 {
+	    width: 100%;
+    margin: auto !important;
+}
+	
+
+.width-60 {
+    width: 60%;
+    margin: auto !important;
+}
+.width-40 {
+    width: 40%;
+    margin: auto !important;
+}
+.width-80 {
+    width: 80% !important;
+    margin: auto !important;
+}
+.btn-1 {
+    
+}
+
+.btn-1:hover {
+    
+}
+
+.btn-2 {
+    
+}
+
+.btn-2:hover {
+    
+}
+
+.btn-3 {
+    
+}
+
+.btn-3:hover {
+	
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
+.desktop-hide {
+    display: none;
+}
+
+ol {
+    list-style: none;
+    -webkit-padding-start: 0;
+}
+
+
+.padding-none {
+    padding: 0px !important ;
+}
+
+.inline {
+    display: inline;
+}
+
+
+/* ---- NAVBAR ---- */
+
+.navbar {
+    height: 60px !important;
+    line-height: 60px;
+    margin-bottom: 0 !important;
+    margin: 0;
+    border-radius: 0;
+    font-size: 16px;
+    background: #fff !important;
+	border: 0px;
+    border-bottom: 1px solid #e4e4e4 !important;
+	z-index: 10000;
+}
+
+.navbar div,.navbar ul li a {
+    height: 60px !important;
+    line-height: 60px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #506A85;
+}
+
+.navbar-fixed-top {
+    background: transparent !important;
+    border-bottom: 0 solid transparent !important;
+}
+
+.navbar-fixed-top div,.navbar-fixed-top a,.navbar-fixed-top ul li a {
+    height: 60px !important;
+    line-height: 60px;
+    color: #fff !important;
+}
+
+.navbar-default div,.navbar-default a,.navbar-default ul li a {
+    height: 60px !important;
+    line-height: 60px;
+}
+
+.navbar-fixed-top.affix {
+	background:white !important;
+	   -webkit-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+	border-bottom: 1px solid #e4e4e4 !important;
+}
+.navbar-fixed-top.affix a, .navbar-fixed-top.affix div, .navbar-fixed-top.affix ul li a {
+	color: #616161 !important;
+}
+
+ .navbar-fixed-top.affix .navbar-toggle .icon-bar {
+background-color: #616161 !important;
+ }
+ 
+.navbar-default div form {
+z-index: 10000;	
+}
+.navbar-nav {
+    margin: 0;
+}
+.navbar-left {
+	float: left;
+}
+
+.mobile-navbar-right {
+	float: right;
+}
+.nav .fa {
+    font-size: 20px;
+}
+
+.fa-navbar {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.navbar-collapse {
+	width: 50%;
+	float: right;
+}
+
+.nav .logo {
+    border-right: 1px solid #fafafa;
+    padding-right: 20px;
+}
+.navbar-toggle {
+	z-index: 10000;
+	border: none !important;
+	background: none  !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #616161 !important;
+}
+.navbar-fixed-top .navbar-toggle .icon-bar {
+	background-color: white !important;
+}
+
+.navbar-collapse.collapsing, .navbar-collapse.collapse.in {
+		position: absolute !important;
+		top: 60px;
+		bottom: 0px;
+		right: 0px;
+		left: 0px;
+		left: 0px;
+        height: 100vh !important;
+		max-height: 100vh;
+        width: 100% !important;
+		color: #616161;
+        z-index: 10000 !important;
+		padding-right: 0px;
+		padding-left: 0px;
+	background: white;
+}
+.navbar-collapse.collapsing ul li a, .navbar-collapse.collapse.in ul li a {
+	color:#616161 !important;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #fafafa;
+}	
+.navbar-collapse.collapsing ul li a:hover, .navbar-collapse.collapse.in ul li a:hover {
+	background: #fafafa;
+}
+.burger-nav {
+	padding: 22px 15px;
+}
+
+.nav.affix {
+    top: 20px;
+    z-index: -1;
+}
+
+/* ---- END NAVBAR ---- */
+	
+
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+
+.block {
+	display: block;
+	margin: auto;
+	width: 100%;
+	margin: 0px;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filter-hide {
+    display: none;
+}
+
+.filter-show {
+    display: block;
+}
+
+
+.carousel .item {
+    min-height: 250px;
+}
+
+.carousel .carousel-control {
+    background-image: none;
+}
+
+.carousel .left:hover {
+    background-image: linear-gradient(to right,rgba(0,0,0,0.3) 0,rgba(0,0,0,0.001) 100%);
+}
+
+.carousel .right:hover {
+    background-image: linear-gradient(to left,rgba(0,0,0,0.3) 0,rgba(0,0,0,0.001) 100%);
+}
+
+.glyphicon {
+	color: white !important;
+}
+
+.section-herp-1 {
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+    background: linear-gradient(rgba(24, 90, 157,0.8),rgba(67, 206, 162,0.8)),url(Images/basketballcourt.jpg) 50% 50% / cover no-repeat fixed;
+    text-align: center;
+    display: table;
+}
+
+.section-hero-2 {
+    height: 50vh;
+    min-height: 500px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+.section-hero-3 {
+    height: 40vh;
+    min-height: 300px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+/* ---- FORM FORMATS ---- */
+.form-error {
+	max-width: 300px;
+	padding: 10px;
+	background: red;
+	color: white;
+	border-radius: 5px;
+	margin-top:20px;
+	font-weight: 700;
+	
+}
+.form-success {
+	max-width: 300px;
+	padding: 10px;
+	background: green;
+	color: white;
+	border-radius: 5px;
+	margin-top:20px;
+	font-weight: 700;
+	
+}
+.form-notice {
+	width: 300px;
+	padding: 10px;
+	background: none;
+	color: white;
+	border-radius: 5px;
+	margin: 15px;
+	font-weight: 700;
+	border: 1px solid white;
+	
+}
+
+/* ---- END FORM FORMATS ---- */
+
+
+/* ---- MAPS ---- */
+
+.angular-google-map-container {
+    height: 320px;
+    width: 100%;
+}
+
+.pac-container {
+	background: #fafafa;
+	z-index: 10000;
+	color: #fafafa;
+	font-weight: 300;
+}
+
+.pac-item {
+	height: 60px;
+	line-height: 60px;
+	font-size: 15px;
+	border: 1px solid transparent;
+}
+
+.pac-item:nth-child(even) {
+	background: white;
+}
+
+.pac-item:hover {
+	border: 1px solid transparent;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	background: #185a9d;	
+}
+
+.pac-item-query {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.pac-icon {
+	background: url('Images/map-marker.png') no-repeat;
+	margin-left: 10px;
+	width: 35px; 
+	height: 35px;
+	background-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+.pac-item:hover .pac-icon {
+	background: url('Images/map-marker-white.svg') no-repeat;
+	margin-left: 10px;
+	width: 35px; 
+	height: 35px;
+	background-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.pac-item:hover .pac-item-query {
+	color: white;
+	font-weight: 700;
+}
+
+.search-map .angular-google-map-container {
+    height: 100vh;
+    width: 100%;
+}
+/* ---- END MAPS ---- */
