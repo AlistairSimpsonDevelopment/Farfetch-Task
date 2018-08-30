@@ -245,11 +245,14 @@ ol {
 
 .navbar-brand {
     position: absolute;
-	
 left:0;
 right:0;
 margin-left:auto;
 margin-right:auto;
+
+}
+.navbar-brand img {
+	width: 200px;
 }
 
 .nav-icons {
@@ -370,6 +373,20 @@ margin-right:auto;
 	font-size: 15px;
 	line-height: 180%;
 }
+
+.width-80 {
+    width: 80% !important;
+    margin: auto !important;
+}
+.width-60 {
+    width: 80%;
+    margin: auto !important;
+}
+.width-40 {
+    width: 80%;
+    margin: auto !important;
+}
+
 /* ---- END FONTS AND WEIGHTS ---- */
 }
 /* mobiles */
@@ -413,30 +430,21 @@ margin-right:auto;
 	line-height: 180%;
 }
 /* ---- END FONTS AND WEIGHTS ---- */
-/* ---- FONTS AND WEIGHTS ---- */
 
-.heading {
-	font-family:  sans-serif;
-	font-size: 30px;
-	line-height: 120%;
-	padding-top: 10px;
-	margin-bottom: 20px;
-	font-weight: bold;
+.width-80 {
+    width: 95% !important;
+    margin: auto !important;
+}
+.width-60 {
+    width: 95%;
+    margin: auto !important;
+}
+.width-40 {
+    width: 95%;
+    margin: auto !important;
 }
 
-.copy {
-	font-family:  sans-serif;
-	font-size: 18px;
-	line-height: 150%;
-}
-
-.copy-small {
-	font-family:  sans-serif;
-	font-size: 15px;
-	line-height: 180%;
-}
-/* ---- END FONTS AND WEIGHTS ---- */
 
 }
 
-/* ---- MEDIA QUERIES & MOBILE CSS ---- */
+/* ---- END MEDIA QUERIES & MOBILE CSS ---- */
