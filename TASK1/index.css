@@ -83,6 +83,11 @@ ol {
 	font-size: 14px;
 	line-height: 180%;
 }
+
+.copy-bold {
+	font-weight: bold;
+}
+
 .copy-white {
 	color: #fff;
 }
@@ -176,7 +181,7 @@ ol {
 .btn-black {
 	background: #000;
 	border: none;
-	padding: 10px;
+	padding: 15px;
 	width: 250px;
 	color: #fff;
 	margin: 15px;
@@ -244,13 +249,13 @@ ol {
 
 .nav-icons {
 	font-size: 18px !important;
-
-	margin: 6px;
+	margin: 8px;
 	color: black;
 }
 
 .navbar-toggler {
 	border: none !important;
+	padding: 5px;
 }
 
 /* ---- END NAVBAR ---- */
@@ -278,6 +283,13 @@ ol {
 	display: none;
 }
 
+.tablet-hide {
+	display: block;
+}
+
+.mobile-hide {
+	display: block;
+}
 
 
 }
@@ -319,6 +331,18 @@ ol {
 	font-family:  sans-serif;
 	font-size: 15px;
 	line-height: 180%;
+}
+
+.desktop-hide {
+	display: none;
+}
+
+.tablet-hide {
+	display: block;
+}
+
+.mobile-hide {
+	display: block;
 }
 /* ---- END FONTS AND WEIGHTS ---- */
 }
@@ -432,6 +456,11 @@ ol {
 	display: none;
 }
 
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 
 /* ---- FONTS AND WEIGHTS ---- */
 
