@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<!-- meta -->
+<title>Farfetch Dev Task 2</title>
+
+<!-- jquery--> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+<div class="form">
+	<form action="response.php" class="productform" method="post" accept-charset="utf-8">
+		<input type="text" name="ProductID" value="" placeholder="Product ID" />
+		<input type="submit" name="submit" value="Submit form" />
+	</form>
+</div>
+<br><br>
+<div id="output">
+
+</div>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+   
+   var form = $(".productform");
+   
+   $(".productform").submit(function(event){
+		event.preventDefault();
+		
+		var form = $(this);
+		
+		$.ajax({
+			type: "POST",
+			dataType: "json",
+			url: "response.php", //Relative or absolute path to response.php file
+			data:  form.serialize(),
+			headers : {'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8'},
+			success: function(data) {
+				 
+					$.each(data, function (key,value) {
+						$('#output').append(value['name'] + '<br><br>');
+					});
+					}
+			});
+		return false;
+		});
+});
+			
+
+</script>
+</body>
+</html>

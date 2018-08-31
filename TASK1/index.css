@@ -1,6 +1,5 @@
 body {
     font-family:  sans-serif;
-
     color: #333;
 	height: 100%:
 }
@@ -11,12 +10,6 @@ a {
   word-wrap: break-word !important;
 }
 
-
-
-ol {
-    list-style: none;
-    -webkit-padding-start: 0;
-}
 
 /* ---- SECTION BLOCKS ---- */
 
@@ -135,9 +128,6 @@ ol {
 .padding-20-percent {
 	padding: 20% 20%;
 }
-.padding-right-10 {
-	padding-right: 10px;
-}
 
 .margin-auto {
 	margin: auto;
@@ -223,17 +213,6 @@ ol {
 	float: right;
 	padding-right: 10px;
 }
-.mobile-navbar-right {
-	float: right;
-}
-.nav .fa {
-    font-size: 30px;
-}
-
-.navbar-collapse {
-	width: 50%;
-	float: right;
-}
 
 .navbar-brand {
     position: absolute;
@@ -241,8 +220,8 @@ ol {
 	right:0;
 	margin-left:auto;
 	margin-right:auto;
-
 }
+
 .navbar-brand img {
 	width: 200px;
 }
@@ -425,6 +404,12 @@ ol {
   top: 50%;
   left:50%;
   transform: translate(-50%,-40%);
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 }
