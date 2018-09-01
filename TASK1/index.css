@@ -13,7 +13,7 @@ a {
 /* ---- SECTION BLOCKS ---- */
 
 .section-hero {
-    height: 80vh;
+    height: 100vh;
     padding: 0;
     width: 100%;
 	-webkit-background-size: cover;
@@ -244,18 +244,21 @@ a {
 /* desktops */
 @media only screen and (min-width: 992px) {
 	
+
 .section-hero {
-    height: 100vh;
+	    height: 100vh;
     padding: 0;
     width: 100%;
-   background: url(Images/Img-xl.jpg) no-repeat center center; 
+	background: url(Images/Img-lg.jpg) no-repeat center center ; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
     text-align: center;
     display: table;
+	
 }
+
 
 .desktop-hide {
 	display: none;
@@ -276,16 +279,17 @@ a {
 @media only screen and (max-width: 992px) {
 	
 .section-hero {
-    height: 100vh;
+	height: 100vh;
     padding: 0;
     width: 100%;
-	background: url(Images/Img-lg.jpg) no-repeat center center; 
+	background: url(Images/Img-lg.jpg) no-repeat center center ; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
     text-align: center;
     display: table;
+	
 }
 
 /* ---- FONTS AND WEIGHTS ---- */
@@ -328,16 +332,17 @@ a {
 @media only screen and (max-width: 768px) {
 
 .section-hero {
-    height: 100vh;
+	height: 100vh;
     padding: 0;
     width: 100%;
-   background: url(Images/Img-md.jpg) no-repeat center center ; 
+	background: url(Images/Img-xs.jpg) no-repeat center center ; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
     text-align: center;
     display: table;
+	
 }
 
 
@@ -418,16 +423,17 @@ a {
 @media only screen and (max-width: 560px) {
 	
 .section-hero {
-    height: 100vh;
+	height: 100vh;
     padding: 0;
     width: 100%;
-	background: url(Images/Img-xs.jpg) no-repeat center center; 
+	background: url(Images/Img-xs.jpg) no-repeat center center ; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
     text-align: center;
     display: table;
+	
 }
 .tablet-hide {
 	display: block;
@@ -446,11 +452,16 @@ a {
     max-width: 50%;
 }
 
+.hero-icon {
+	height: 125px;
+	with: 125px;
+}
+
 /* ---- FONTS AND WEIGHTS ---- */
 
 .heading {
 	font-family:  sans-serif;
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 120%;
 	padding-top: 10px;
 	margin-bottom: 20px;
@@ -487,7 +498,7 @@ a {
   position: absolute;
   top: 50%;
   left:50%;
-  transform: translate(-50%,-45%);
+  transform: translate(-50%,-30%)
 }
 
 .navbar img {

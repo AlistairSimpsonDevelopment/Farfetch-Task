@@ -30,7 +30,7 @@ $( document ).ready(function() {
    
    $(".productform").submit(function(event){
 		event.preventDefault();
-		
+		$( "#output" ).empty();
 		var form = $(this);
 		
 		$.ajax({
