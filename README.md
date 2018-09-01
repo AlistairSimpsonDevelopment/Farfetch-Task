@@ -4,7 +4,7 @@
 ## Task 1
 
 Development site found here:
-Presentation within folder
+
 
 ## Task 2
 
