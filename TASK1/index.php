@@ -26,11 +26,9 @@
 
 <?php include 'Modules/hero.html'; ?>
 
+
+<!-- bootstrap js -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"  ></script>
+
 </body>
-
-<!-- jquery & bootstrap -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-
 </html>
