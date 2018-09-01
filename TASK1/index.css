@@ -241,6 +241,7 @@ a {
 /* ---- MEDIA QUERIES & MOBILE CSS ---- */
 
 
+	
 /* desktops */
 @media only screen and (min-width: 992px) {
 	
@@ -328,6 +329,8 @@ a {
 }
 /* ---- END FONTS AND WEIGHTS ---- */
 }
+
+
 /* tablets */
 @media only screen and (max-width: 768px) {
 
@@ -335,7 +338,7 @@ a {
 	height: 100vh;
     padding: 0;
     width: 100%;
-	background: url(Images/Img-xs.jpg) no-repeat center center ; 
+	background: url(Images/Img-xs.jpg); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -402,12 +405,11 @@ a {
 	display: none;
 }
 
-
 .valign {
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-40%);
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-40%);
 }
 
 .col-md-6 {
@@ -416,9 +418,18 @@ a {
     max-width: 50%;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ .valign {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-10%);
+}
+  
 }
 
-
+}
 /* mobiles */
 @media only screen and (max-width: 560px) {
 	
@@ -433,7 +444,6 @@ a {
 	background-size: cover;
     text-align: center;
     display: table;
-	
 }
 .tablet-hide {
 	display: block;
